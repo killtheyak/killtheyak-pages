@@ -1,7 +1,7 @@
 title: Contribute
 
-1. Clone the [repo][].
-2. Copy `TEMPLATE.md`.
+1. Fork the [repo][].
+2. Copy `TEMPLATE.md` to a new file.
 3. Write your content. Commit.
 4. Send a pull request.
 
