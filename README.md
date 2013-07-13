@@ -11,7 +11,7 @@ Some things to note:
 
 * You can write in [Markdown][].
 * If your "recipe" has any dependencies, include them in `deps`. You can refer to other pages in the repo by writing their filename (without the extension), e.g. `deps: [install-homebrew]`
-* Content enclosed in ` ``` ` is important. When other pages list your page as a `dep`, the content between the ` ``` ` will be included on their page.
+* Content enclosed in triple-backticks is important. When other pages list your page as a `dep`, the content between the triple-backticks will be included on their page.
 * Don't forget to add yourself as a contributor so you can get credit! You can write your name, or you can write your Github page URL. 
 
 To see an example, click [here][example] to see how `TEMPLATE.md` would get rendered.
