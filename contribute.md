@@ -16,4 +16,4 @@ To see an example, click [here][example] to see how `TEMPLATE.md` would get rend
 
 [Markdown]: http://daringfireball.net/projects/markdown/
 [repo]: https://github.com/sloria/killtheyak-pages
-[example]: http://localhost:5000/page-template/
+[example]: http://localhost:5000/TEMPLATE/
