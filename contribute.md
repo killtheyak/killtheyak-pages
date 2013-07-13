@@ -12,8 +12,5 @@ Some things to note:
 * Content enclosed in ` ``` ` is important. When other pages list your page as a `dep`, the content between the ` ``` ` will be included on their page.
 * Don't forget to add yourself as a contributor so you can get credit! You can write your name, or you can write your Github page URL. 
 
-To see an example, click [here][example] to see how `TEMPLATE.md` would get rendered.
-
 [Markdown]: http://daringfireball.net/projects/markdown/
 [repo]: https://github.com/sloria/killtheyak-pages
-[example]: http://localhost:5000/TEMPLATE/
