@@ -2,7 +2,7 @@
 
 ## How to contribute to KillTheYak
 
-1. Fork the [repo][].
+1. Fork this [repo][].
 2. Copy `TEMPLATE.md` to a new file.
 3. Write your content. Commit.
 4. Send a pull request.
@@ -15,4 +15,4 @@ Some things to note:
 * Don't forget to add yourself as a contributor so you can get credit! You can write your name, or you can write your Github page URL. 
 
 [Markdown]: http://daringfireball.net/projects/markdown/
-[repo]: https://github.com/sloria/killtheyak-pages
+[repo]: https://github.com/killtheyak/killtheyak-pages

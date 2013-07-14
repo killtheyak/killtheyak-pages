@@ -1,4 +1,4 @@
-title: Contribute
+title: Contribute to Kill The Yak
 
 1. Fork the [repo][].
 2. Copy `TEMPLATE.md` to a new file.
