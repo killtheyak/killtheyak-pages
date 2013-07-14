@@ -6,7 +6,7 @@ description: Homebrew's tagline is "the missing package manager for OS X". It is
 Works on all MacOSX >= 10.5.
 
 ```bash
-# In your Mac Terminal run,
+# In your Mac Terminal, run:
 $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
