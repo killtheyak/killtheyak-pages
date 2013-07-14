@@ -1,4 +1,4 @@
-title: My new page
+title: Create my new page
 updated: 2013-07-13
 description: This is the template page.
 os: [macosx, windows, linux]
