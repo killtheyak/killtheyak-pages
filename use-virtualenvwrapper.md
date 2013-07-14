@@ -1,7 +1,7 @@
 title: Use virtualenv + virtualenvwrapper with Python
 updated: 2013-07-14
 description: Virtualenv allows you to make isolated working copies of Python so that you can work on a specific project without affecting other projects. Virtualenvwrapper provides commands that make it simple to create and manage your virtual environments.
-os: [macosx, linux]
+os: [macosx, linux, windows]
 tags: [python]
 deps: [install-python]
 contributors: ["http://www.github.com/sloria"] 
@@ -27,6 +27,16 @@ export WORKON_HOME=~/Envs
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
+On Window, you can use the [virtualenvwrapper-powershell][].
+
+```bash
+# Virtualenvwrapper-powershell in Windows
+PS> pip install virtualenvwrapper-powershell
+PS> $env:WORKON_HOME="~/Envs"
+PS> mkdir $env:WORKON_HOME
+PS> import-module virtualenvwrapper
+```
+
 Create the folder for your virtual environments.
 
 ```bash
@@ -49,4 +59,8 @@ $ rmvirtualenv my-polluted-environment
 
 See also:
 
+- [Virtual Environments - Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/dev/virtualenvs.html)
 - [Virtualenvwrapper docs](http://virtualenvwrapper.readthedocs.org/en/latest/) 
+- [Virtualenvwrapper-powershell for Windows users][virtualenvwrapper-powershell]
+
+[virtualenvwrapper-powershell]: https://bitbucket.org/guillermooo/virtualenvwrapper-powershell
