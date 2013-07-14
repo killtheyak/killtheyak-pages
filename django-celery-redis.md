@@ -1,6 +1,6 @@
 title: Use Celery in Django with a Redis backend
 updated: 2013-07-13
-description: Celery is a distributed task queue for Python that allows you to run comutationally expensive code asynchronously. Here's how to integrate Celery in a Django project, using Redis for the backend service.
+description: Celery is a distributed task queue for Python that allows you to run computationally expensive code asynchronously. Here's how to integrate Celery in a Django project, using Redis for the backend service.
 os: [macosx, linux]
 tags: [python, django]
 deps: [install-homebrew]
