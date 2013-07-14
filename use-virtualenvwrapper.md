@@ -1,5 +1,5 @@
 title: Use virtualenv + virtualenvwrapper with Python
-updated: 2013-07-14
+updated: 2013-07-14 10:00:00
 description: Virtualenv allows you to make isolated working copies of Python so that you can work on a specific project without affecting other projects. Virtualenvwrapper provides commands that make it simple to create and manage your virtual environments.
 os: [macosx, linux, windows]
 tags: [python]
@@ -49,8 +49,10 @@ $ mkdir -p $WORKON_HOME
 Now, when you log in to a new shell session, you will be able to use virtualenvwrapper.
 
 ```bash
-# Create a new virtualenv
+# Create a new environment
 $ mkvirtualenv my-fresh-environment
+# Activate an environment
+$ workon my-fresh-environment
 # List environments
 $ lsvirtualenv
 # Remove an environment

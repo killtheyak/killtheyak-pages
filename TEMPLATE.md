@@ -1,5 +1,5 @@
 title: Create my new page
-updated: 2013-07-13
+updated: 2013-07-13 00:00:00
 description: This is the template page.
 os: [macosx, windows, linux]
 tags: []

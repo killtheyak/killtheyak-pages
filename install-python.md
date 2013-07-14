@@ -1,5 +1,5 @@
 title: Install Python 2 and/or 3
-updated: 2013-07-13
+updated: 2013-07-13 00:00:00
 os: [macosx]
 deps: [install-homebrew]
 tags: [python]
@@ -7,6 +7,7 @@ contributors: ["http://www.github.com/sloria"]
 
 ```bash
 # On Mac >= 10.5 with homebrew
+$ brew update
 ## Install Python 2
 $ brew install python
 ## Install Python 3

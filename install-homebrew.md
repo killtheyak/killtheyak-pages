@@ -1,5 +1,5 @@
 title: Install Homebrew
-updated: 2013-07-13
+updated: 2013-07-13 00:00:00
 os: [macosx]
 description: Homebrew's tagline is "the missing package manager for OS X". It is by far the best package manager for Mac available and will save you hours of yak-shaving.
 

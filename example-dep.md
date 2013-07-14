@@ -1,5 +1,5 @@
 title: Dependency example
-updated: 2013-07-13
+updated: 2013-07-13 00:00:00
 os: [macosx, windows, linux]
 
 
