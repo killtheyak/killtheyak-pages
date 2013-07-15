@@ -1,7 +1,7 @@
 title: Contribute to Kill The Yak
 
 1. Fork the [repo][].
-2. Copy `TEMPLATE.md` to a new file.
+2. Copy `TEMPLATE_PAGE.md` to a new file.
 3. Write your content. Commit.
 4. Send a pull request.
 
@@ -34,4 +34,4 @@ Click [here][example] to see how it would get rendered.
 
 [Markdown]: http://daringfireball.net/projects/markdown/
 [repo]: https://github.com/killtheyak/killtheyak-pages
-[example]: /template/
+[example]: /template_page/
