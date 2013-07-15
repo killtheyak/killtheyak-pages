@@ -1,7 +1,7 @@
 title: Use Coffeescript in a Django app
 updated: 2013-07-14 20:00:00
 os: [macosx, windows, linux]
-tags: [python, django]
+tags: [coffeescript, python, django]
 deps: [install-coffeescript]
 contributors: ["http://www.github.com/sloria"] 
 description: Using Coffeescript in Django is much simpler than you might think.

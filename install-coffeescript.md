@@ -35,6 +35,7 @@ coffee -cw cupofjoe.coffee
 
 See also:
 
+- [Use Coffeescript in Django](/use-coffeescript-in-django)
 - [Coffeescript.org][Coffeescript]
 
 [Coffeescript]: http://coffeescript.org/
