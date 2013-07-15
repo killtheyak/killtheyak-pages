@@ -34,4 +34,4 @@ Click [here][example] to see how it would get rendered.
 
 [Markdown]: http://daringfireball.net/projects/markdown/
 [repo]: https://github.com/killtheyak/killtheyak-pages
-[example]: http://killtheyak.com/TEMPLATE
+[example]: /template/
