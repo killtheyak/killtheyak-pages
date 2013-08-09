@@ -1,6 +1,6 @@
 title: Use the same vimrc for terminal and gui
 updated: 2013-08-09 10:00:00
-description: If you like to use Vim in the Terminal and within various GUI's (Macosx and Linux), as I do, here is parts of my .vimrc file that help to make this happen.
+description: If you like to use Vim in the Terminal and within various GUI's (Macosx and Linux), as I do, here are parts of my .vimrc file that help to make this happen.
 os: [macosx, windows, linux]
 tags: [vim]
 deps: []
@@ -62,5 +62,5 @@ set lines=43
 set columns=189
 ```
 
-Here is a (Gist of gcman105's .vimrc file)[https://gist.github.com/gcman105/5821422]
+Here is a [Gist of gcman105's .vimrc file](https://gist.github.com/gcman105/5821422).
 
