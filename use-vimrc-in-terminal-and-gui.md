@@ -17,7 +17,7 @@ home directory, you are able to use **Vim** on multiple computers.
 The first snippet from my .vimrc file, shows howto test for the varoius
 environments.
 
-```vimrc
+```vimL
 "Set the color scheme.
 set background=dark
 if has("gui_running")    
@@ -50,14 +50,14 @@ Then symlink .vimlocal in your home folder to the appropriate one.
 
 The snippet below is from the very bottom of my .vimrc file.
 
-```vimrc
+```vimL
 source $HOME/.vimlocal
 ```
 ##Sample .vimlocal
 
 *I try to keep my .vimlocal file really small.*
 
-```vimrc
+```vimL
 "Set the initial window size
 set lines=43
 set columns=189
