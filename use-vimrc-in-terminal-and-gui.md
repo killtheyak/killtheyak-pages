@@ -1,9 +1,8 @@
 title: Use the same vimrc for terminal and gui
-updated: 2013-07-15 00:00:00
-description: If you like to use Vim in the Terminal and within varoius GUI's (Macosx
-and Linux), as I do, here is parts of my .vimrc file that help to make this happen.
+updated: 2013-08-09 10:00:00
+description: If you like to use Vim in the Terminal and within various GUI's (Macosx and Linux), as I do, here is parts of my .vimrc file that help to make this happen.
 os: [macosx, windows, linux]
-tags: [vim, gvim, macvim]
+tags: [vim]
 deps: []
 contributors: ["http://www.github.com/gcman105"] 
 
