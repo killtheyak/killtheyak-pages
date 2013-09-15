@@ -1,10 +1,11 @@
 title: Install and configure Git
-updated: 2013-07-14 16:46:00
+updated: 2013-09-15 13:57:00
 os: [macosx]
 tags: [git]
-deps: [install-homebrew]
+deps: [install-homebrew, install-mac-xcode-compilers]
 contributors: ["http://www.github.com/sloria"] 
 
+*Updated 2013-09-15*: Add Xcode compilers as a dependency.
 
 ```bash
 # MacOSX-specific instructions

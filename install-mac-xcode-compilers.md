@@ -1,15 +1,17 @@
 title: Install the latest Mac C and C++ compilers
-updated: 2013-07-14 13:00:00
+updated: 2013-09-15 13:50:00
 os: [macosx]
 tags: [compilers]
 deps: []
 contributors: ["http://www.github.com/sloria"] 
 
+*Update 2013-09-15*: Update download link.
+
 First, install Xcode.
 
 ```
 # Get the latest version of Xcode from the Mac App Store
-# Here: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+# Here: https://developer.apple.com/xcode/
 ```
 
 Open Xcode, then open the Preferences.

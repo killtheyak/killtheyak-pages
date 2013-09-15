@@ -1,9 +1,11 @@
 title: Install Python 2 and/or 3
-updated: 2013-07-13 00:00:00
+updated: 2013-09-15 13:50:00
 os: [macosx]
-deps: [install-homebrew]
+deps: [install-homebrew, install-mac-xcode-compilers]
 tags: [python]
 contributors: ["http://www.github.com/sloria"]
+
+*Updated 2013-09-15*: Add Xcode compilers as a dependency.
 
 ```bash
 # On Mac >= 10.5 with homebrew
