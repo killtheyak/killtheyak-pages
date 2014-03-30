@@ -1,10 +1,12 @@
 title: Use PostgreSQL with Flask or Django
-updated: 2013-07-26 9:00:00
+updated: 2014-03-29 21:58:00
 description: A quick guide to get started using Postgres with a Flask or Django app.
 os: [macosx, windows, linux]
 tags: [python, django, flask]
 deps: []
-contributors: ["http://www.github.com/sloria"] 
+contributors: ["http://www.github.com/sloria", "https://github.com/bgschiller"] 
+
+* Updated 2014-03-29: Fix `createuser` and `createdb` commands. Thanks @bgshiller.
 
 ## Install Postgres
 
@@ -21,7 +23,7 @@ $ which psql
 
 ```bash
 # Create a new user
-$ createuser -U postgres yourusername -P
+$ sudo -u postgres createuser -s $USER
 Enter password for new role:
 Enter it again:
 Shall the new role be a superuser? (y/n) n
@@ -29,7 +31,7 @@ Shall the new role be allowed to create databases (y/n) y
 Shall the new role be allowed to create more new roles? (y/n) n
 
 # Create a new database
-$ createdb -U yourusername -E utf8 -O yourusername yournewnewdb -T template0
+$ createdb -U $USER --locale=en_US.utf8 -E utf8 -O $USER yournewdb -T template0
 ```
 
 ## Set up Postgres with Flask or Django
