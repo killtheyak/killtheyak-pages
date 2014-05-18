@@ -1,5 +1,5 @@
 title: Use PostgreSQL with Flask or Django
-updated: 2014-03-29 21:58:00
+updated: 2014-05-18 14:46:00
 description: A quick guide to get started using Postgres with a Flask or Django app.
 os: [macosx, windows, linux]
 tags: [python, django, flask]
