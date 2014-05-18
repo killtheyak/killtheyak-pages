@@ -4,8 +4,11 @@ description: A quick guide to get started using Postgres with a Flask or Django 
 os: [macosx, windows, linux]
 tags: [python, django, flask]
 deps: []
-contributors: ["http://www.github.com/sloria", "https://github.com/bgschiller"] 
+contributors: ["http://www.github.com/sloria",
+            "https://github.com/bgschiller", 
+            "https://github.com/tristaneuan"]
 
+* Updated 2014-05-18: Fix `createdb` listing. Thanks @trastaneuan. Also fixed the footnote re: adding Postres.app's binaries to `$PATH`.
 * Updated 2014-03-29: Fix `createuser` and `createdb` commands. Thanks @bgshiller.
 
 ## Install Postgres
@@ -17,7 +20,7 @@ Sidenote for MacOSX users: I have found [Postgres.app](http://postgresapp.com/) 
 ```bash
 # check that you successfully installed postgres
 $ which psql
-/Applications/Postgres.app/Contents/MacOS/bin/psql
+/Applications/Postgres.app/Contents/Versions/9.3/bin/psql
 ```
 ## Create a new user and a database
 
@@ -31,7 +34,7 @@ Shall the new role be allowed to create databases (y/n) y
 Shall the new role be allowed to create more new roles? (y/n) n
 
 # Create a new database
-$ createdb -U $USER --locale=en_US.utf8 -E utf8 -O $USER yournewdb -T template0
+$ createdb -U $USER --locale=en_US.utf-8 -E utf-8 -O $USER yournewdb -T template0
 ```
 
 ## Set up Postgres with Flask or Django
