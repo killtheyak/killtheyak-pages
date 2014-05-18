@@ -12,7 +12,7 @@ contributors: ["http://www.github.com/sloria", "https://github.com/bgschiller"]
 
 First, download and install Postgres for your OS [here](http://www.postgresql.org/download/).
 
-Sidenote for MacOSX users: I have found [Postgres.app](http://postgresapp.com/) to be the simplest option[^brew-warning]. Just download and run the app.
+Sidenote for MacOSX users: I have found [Postgres.app](http://postgresapp.com/) to be the simplest option[^path-warning]. Just download and run the app.
 
 ```bash
 # check that you successfully installed postgres
@@ -86,5 +86,6 @@ For viewing/managing your databases:
 - [pgAdmin](http://www.pgadmin.org/) (Cross-platform)
 - [Induction](http://inductionapp.com/) (MacOSX)
 
-[^brew-warning]: **IMPORTANT** note for Homebrew users: The scripts added to your path by Postgres.app may conflict with your Homebrew installations. If this is a case, one quick fix is to add aliases that point to the Postgres.app binaries. For example: `alias psql="/Applications/Postgres.app/Contents/MacOS/bin/psql"`
+[^path-warning]: **IMPORTANT**: If you use Postgres.app, make sure to add its binaries directory to your path. You can do so by adding `export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+` to your `.bashrc` (or `.zshrc`, `.bash_profile`, etc.)
 
