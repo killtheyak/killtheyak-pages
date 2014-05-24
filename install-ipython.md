@@ -7,9 +7,7 @@ tags: [ipython, bash, notebooks]
 deps: [use-virtualenvwrapper]
 contributors: ["http://www.github.com/rachelkelly"] 
 
-Write your content below.
 
-```
 ## After installing virtualenv and virtualenvwrapper
 
 `mkdir IPYTHONENVNAME`  
@@ -29,5 +27,3 @@ And finally:
 
 Then, to run a local instance of IPython Notebooks, enter `ipython notebook`.  `ipython` is 
 the command and `notebook` is the argument.
-
-```
