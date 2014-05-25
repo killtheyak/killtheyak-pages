@@ -1,29 +1,33 @@
-title: Installing IPython Notebooks
-updated: 2014-05-23
-description: A whip-fast guide to getting started with IPython Notebooks, the best 
-persistent-state REPL out there
+title: Install IPython Notebook
+updated: 2014-05-23 00:00:00
+description: A whip-fast guide to getting started with IPython Notebooks, the best persistent-state REPL out there
 os: [macosx]
-tags: [ipython, bash, notebooks]
+tags: [python, scientific]
 deps: [use-virtualenvwrapper]
 contributors: ["http://www.github.com/rachelkelly"] 
 
 
-## After installing virtualenv and virtualenvwrapper
+Create your virtualenv. If you are using virtualenvwrapper, run:
 
-`mkdir IPYTHONENVNAME`  
-This can be any environment name you choose.  I call mine `ipy` for  brevity.  IPython has a 
-bunch of dependencies and it's nice to have them all in ONE place rather than globally 
-throughout your machine.
+```sh
+$ mkvirtualenv ipy
+```
 
-## pip install  
-Once within the environment you name, with (IPYTHONENVNAME) at the beginning of your prompt, 
-`pip install` all of the following:  
-`jinja2`  
-`pyzmq`  
-`tornado`  
+This can be any environment name you choose.  I call mine `ipy` for  brevity.  IPython has a bunch of dependencies and it's nice to have them all in ONE place rather than globally throughout your machine.
 
-And finally:  
-`ipython`.
+Then use `pip` to install the following.
 
-Then, to run a local instance of IPython Notebooks, enter `ipython notebook`.  `ipython` is 
-the command and `notebook` is the argument.
+- `jinja2`  
+- `pyzmq`  
+- `tornado`  
+
+```sh
+$ workon ipy
+$ pip install jinja2 pyzmq tornado ipython
+```
+
+Then, to run a local instance of IPython Notebook: 
+
+```sh
+$ ipython notebook
+```
