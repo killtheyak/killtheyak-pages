@@ -59,6 +59,17 @@ $ lsvirtualenv
 $ rmvirtualenv my-polluted-environment
 ```
 
+Note that if you want to create a virtualenv with virtualenvwrapper for a different version 
+of Python, it needs to be installed locally.  Python 2.7 is standard on -nix machines.  You 
+can install Python 3.x alongside 2.x without harming packages dependent upon 2.x.
+```bash
+# On Mac >= 10.5 with homebrew
+brew update
+brew install python3
+# To make a new virtualenv with python3
+mkvirtualenv --python=/usr/local/bin/python3 py3
+```
+
 See also:
 
 - [Virtual Environments - Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/dev/virtualenvs.html)
