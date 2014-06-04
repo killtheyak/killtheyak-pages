@@ -64,10 +64,10 @@ of Python, it needs to be installed locally.  Python 2.7 is standard on -nix mac
 can install Python 3.x alongside 2.x without harming packages dependent upon 2.x.
 ```bash
 # On Mac >= 10.5 with homebrew
-brew update
-brew install python3
+$ brew update
+$ brew install python3
 # To make a new virtualenv with python3
-mkvirtualenv --python=/usr/local/bin/python3 py3
+$ mkvirtualenv --python=/usr/local/bin/python3 py3
 ```
 
 See also:
