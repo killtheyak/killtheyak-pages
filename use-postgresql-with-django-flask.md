@@ -1,13 +1,15 @@
 title: Use PostgreSQL with Flask or Django
-updated: 2014-05-18 14:46:00
+updated: 2015-01-17
 description: A quick guide to get started using Postgres with a Flask or Django app.
 os: [macosx, windows, linux]
 tags: [python, django, flask]
 deps: []
 contributors: ["http://www.github.com/sloria",
             "https://github.com/bgschiller", 
-            "https://github.com/tristaneuan"]
+            "https://github.com/tristaneuan",
+            "https://github.com/TayHobbs"]
 
+* Updated 2015-01-17: Update paths to postgres binary in Postgres.app. Thanks @TayHobbs.
 * Updated 2014-05-18: Fix `createdb` listing. Thanks @trastaneuan. Also fixed the footnote re: adding Postres.app's binaries to `$PATH`.
 * Updated 2014-03-29: Fix `createuser` and `createdb` commands. Thanks @bgshiller.
 
