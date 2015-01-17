@@ -20,7 +20,7 @@ Sidenote for MacOSX users: I have found [Postgres.app](http://postgresapp.com/) 
 ```bash
 # check that you successfully installed postgres
 $ which psql
-/Applications/Postgres.app/Contents/Versions/9.3/bin/psql
+/Applications/Postgres.app/Contents/Versions/9.4/bin/psql
 ```
 ## Create a new user and a database
 
@@ -89,6 +89,5 @@ For viewing/managing your databases:
 - [pgAdmin](http://www.pgadmin.org/) (Cross-platform)
 - [Induction](http://inductionapp.com/) (MacOSX)
 
-[^path-warning]: **IMPORTANT**: If you use Postgres.app, make sure to add its binaries directory to your path. You can do so by adding `export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+[^path-warning]: **IMPORTANT**: If you use Postgres.app, make sure to add its binaries directory to your path. You can do so by adding `export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 ` to your `.bashrc` (or `.zshrc`, `.bash_profile`, etc.)
-
