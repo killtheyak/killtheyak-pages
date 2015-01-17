@@ -9,8 +9,8 @@ contributors: ["http://www.github.com/sloria",
             "https://github.com/tristaneuan",
             "https://github.com/TayHobbs"]
 
-* Updated 2015-01-17: Update paths to postgres binary in Postgres.app. Thanks @TayHobbs.
-* Updated 2014-05-18: Fix `createdb` listing. Thanks @trastaneuan. Also fixed the footnote re: adding Postres.app's binaries to `$PATH`.
+* Updated 2015-01-17: Update paths to `psql` binary in Postgres.app. Thanks @TayHobbs.
+* Updated 2014-05-18: Fix `createdb` listing. Thanks @trastaneuan. Also fixed the footnote re: adding Postgres.app's binaries to `$PATH`.
 * Updated 2014-03-29: Fix `createuser` and `createdb` commands. Thanks @bgshiller.
 
 ## Install Postgres
