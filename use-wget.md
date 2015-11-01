@@ -1,6 +1,6 @@
 title: wget an entire website
 updated: 2015-10-10 11:12:06
-description: This is the template page.
+description: Download an entire website.
 os: [macosx, linux]
 tags: [wget]
 deps: []
@@ -8,7 +8,7 @@ contributors: ["http://www.github.com/daschwa"]
 
 Download an entire website with all its content and media using `wget`.
 
-# Descriptive
+# Description
 ```
     wget --recursive \
         --no-clobber \

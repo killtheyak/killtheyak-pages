@@ -1,6 +1,6 @@
 title: print with a2ps
 updated: 2015-10-10 11:10:37
-description: This is the template page.
+description: Printing from the command line.
 os: [macosx, linux]
 tags: [a2ps]
 deps: []

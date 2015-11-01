@@ -1,6 +1,6 @@
 title: convert files with pandoc
 updated: 2015-10-10 11:11:57
-description: This is the template page.
+description: Some sample file conversions you can do with pandoc.
 os: [macosx, linux]
 tags: [pandoc]
 deps: []
@@ -19,4 +19,4 @@ pandoc -s -S -t mediawiki --toc example.txt -o example.wiki
 ```
 
 # Reference
-http://johnmacfarlane.net/pandoc/demos.html
+[Official Pandoc demos](http://johnmacfarlane.net/pandoc/demos.html)

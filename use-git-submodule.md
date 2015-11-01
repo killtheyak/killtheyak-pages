@@ -1,6 +1,6 @@
-title: using submodules in git
+title: use submodules in git
 updated: 2015-10-10 11:11:33
-description: This is the template page.
+description: Helpful commands for working with git submodules.
 os: [macosx, linux, windows]
 tags: [git]
 deps: []

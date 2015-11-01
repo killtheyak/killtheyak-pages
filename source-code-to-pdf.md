@@ -1,6 +1,6 @@
-title: source code to PDF
+title: turn source code into a PDF
 updated: 2015-10-10 11:10:47
-description: This is the template page.
+description: For those times when you need to print your code.
 os: [macosx, linux]
 tags: [pdf, pandoc, a2ps, pdftk]
 deps: []

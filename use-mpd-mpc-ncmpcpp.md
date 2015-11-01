@@ -1,16 +1,16 @@
-title: setup mpd and ncmpcpp
+title: use ncmpcpp
 updated: 2015-10-10 11:11:48
-description: This is the template page.
+description: Installing and basic configuration of mpd and ncmpcpp.
 os: [macosx, linux]
 tags: [mpd, mpc, ncmpcpp]
-deps: []
+deps: [install-mpd-mpc-ncmpcpp]
 contributors: ["http://www.github.com/daschwa"] 
 
 # Music Player Daemon (mpd)
 
 ## Setup
-Create a file called `~/.mpdconf` with the following:
 
+Create a file called `~/.mpdconf` with the following:
 ```
 music_directory         "~/Music"
 playlist_directory              "~/.mpd/playlists"
@@ -28,7 +28,6 @@ audio_output {
 ```
 
 And these:
-
 ```
 mkdir ~/.mpd
 mkdir ~/.mpd/playlists
@@ -40,7 +39,9 @@ Command line Music Player Client.
 
 ## Usefull Commands
 Add matching search results to the current playlist.
-`mpc clear; mpc search <query> | mpc add; mpc play`
+```
+mpc clear; mpc search <query> | mpc add; mpc play
+```
 
 # `mpc.el`
 Emacs front end to `mpd`.

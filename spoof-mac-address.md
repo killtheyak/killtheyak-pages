@@ -1,6 +1,6 @@
-title: spoof your MAC address
+title: spoof my MAC address
 updated: 2015-10-10 11:11:01
-description: This is the template page.
+description: spoof your MAC address and protect your privacy.
 os: [macosx]
 tags: [ifconfig]
 deps: []

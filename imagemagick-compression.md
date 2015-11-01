@@ -1,6 +1,6 @@
-title: compress JPEG image
+title: compress images
 updated: 2015-10-10 11:10:19
-description: This is the template page.
+description: Sometimes images are just too big!
 os: [macosx, linux]
 tags: [imagemagick]
 deps: []

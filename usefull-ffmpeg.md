@@ -1,6 +1,6 @@
-title: usefull ffmpeg commands
+title: use ffmpeg
 updated: 2015-10-10 11:12:14
-description: This is the template page.
+description: Useful ffmpeg commands like speeding up video or boosting audio.
 os: [macosx, linux]
 tags: [ffmpeg]
 deps: []

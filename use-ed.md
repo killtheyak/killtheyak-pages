@@ -1,6 +1,6 @@
 title: use ed
 updated: 2015-10-10 11:11:24
-description: This is the template page.
+description: A short interactive tutorial for ed.
 os: [macosx, linux]
 tags: [ed]
 deps: []
