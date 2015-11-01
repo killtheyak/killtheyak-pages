@@ -27,6 +27,6 @@ ffmpeg -i input.mkv -i input.mp3 -c copy -shortest -map 0:0 -map 1:0 output.mkv
 
 # Boost Audio
 Boost audio by 150%
-'''
+```
 ffmpeg -g input.mp4 -af "volume=1.5" output.mp4
-'''
+```

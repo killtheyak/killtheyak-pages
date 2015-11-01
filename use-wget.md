@@ -8,16 +8,15 @@ contributors: ["http://www.github.com/daschwa"]
 
 Download an entire website with all its content and media using `wget`.
 
-# Description
 ```
-    wget --recursive \
-        --no-clobber \
-        --page-requisites \
-        --html-extension \
-        --convert-links \
-        --domains website.tld \
-        --no-parent \
-        	http://website.tld/foo/bar
+wget --recursive \
+    --no-clobber \
+    --page-requisites \
+    --html-extension \
+    --convert-links \
+    --domains website.tld \
+    --no-parent \
+        http://website.tld/foo/bar
 ```
 
 # Simple
