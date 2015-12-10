@@ -4,7 +4,7 @@ description: A short interactive tutorial for ed.
 os: [macosx, linux]
 tags: [ed]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 How to use `ed`, a line oriented text editor.
 

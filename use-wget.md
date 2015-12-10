@@ -4,7 +4,7 @@ description: Download an entire website.
 os: [macosx, linux]
 tags: [wget]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 Download an entire website with all its content and media using `wget`.
 

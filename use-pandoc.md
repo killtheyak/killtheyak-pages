@@ -4,7 +4,7 @@ description: Some sample file conversions you can do with pandoc.
 os: [macosx, linux]
 tags: [pandoc]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 How to use `pandoc` to make Wiki pages or simply convert from one file to another.
 

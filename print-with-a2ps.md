@@ -4,7 +4,7 @@ description: Printing from the command line.
 os: [macosx, linux]
 tags: [a2ps]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 How to print on the command line with `a2ps`.
 

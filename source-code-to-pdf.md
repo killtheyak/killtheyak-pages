@@ -4,7 +4,7 @@ description: For those times when you need to print your code.
 os: [macosx, linux]
 tags: [pdf, pandoc, a2ps, pdftk]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 Turn source code into a PDF.
 
