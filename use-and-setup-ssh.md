@@ -1,4 +1,4 @@
-title: settup and use SSH
+title: setup and use SSH
 updated: 2015-10-10 11:11:12
 description: This is the template page.
 os: [macosx, linux]

@@ -20,4 +20,5 @@ convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% source.jpg resu
 ```
 
 # Reference
-[citation](http://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick).
+
+- [Stack Overflow post](http://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick)
