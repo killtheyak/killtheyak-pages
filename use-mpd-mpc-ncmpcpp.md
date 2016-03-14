@@ -4,7 +4,7 @@ description: Installing and basic configuration of mpd and ncmpcpp.
 os: [macosx, linux]
 tags: [mpd, mpc, ncmpcpp]
 deps: [install-mpd-mpc-ncmpcpp]
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 # Music Player Daemon (mpd)
 

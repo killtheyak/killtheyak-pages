@@ -4,7 +4,7 @@ description: Sometimes images are just too big!
 os: [macosx, linux]
 tags: [imagemagick]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 Use `ImageMagick` to healthily compress JPEG images.
 

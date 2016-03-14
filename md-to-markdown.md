@@ -4,7 +4,7 @@ description: Rename file extensions for all files in a given directory.
 os: [macosx, linux]
 tags: [bash]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 >We no longer live in a 8.3 world, so we should be using the most descriptive file extensions. It’s sad that all our operating systems rely on this stupid convention instead of the better creator code or a metadata model, but great that they now support longer file extensions.
 

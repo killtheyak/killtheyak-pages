@@ -4,7 +4,7 @@ description: spoof your MAC address and protect your privacy.
 os: [macosx]
 tags: [ifconfig]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 
 Spoof (change) your MAC Address

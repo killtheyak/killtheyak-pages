@@ -4,7 +4,7 @@ description: Useful ffmpeg commands like speeding up video or boosting audio.
 os: [macosx, linux]
 tags: [ffmpeg]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 Helpful [ffmpeg](https://www.ffmpeg.org/) commands.
 

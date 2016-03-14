@@ -4,7 +4,7 @@ description: Helpful commands for working with git submodules.
 os: [macosx, linux, windows]
 tags: [git]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 How to use submodules in `git`.
 

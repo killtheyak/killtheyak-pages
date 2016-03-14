@@ -4,7 +4,7 @@ description: This is the template page.
 os: [macosx, linux]
 tags: [ssh]
 deps: []
-contributors: ["http://www.github.com/daschwa"] 
+contributors: ["http://www.github.com/anschwa"] 
 
 # Genarating and sharing public key
 

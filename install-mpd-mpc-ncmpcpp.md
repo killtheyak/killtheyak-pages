@@ -3,7 +3,7 @@ updated: 2015-10-10 11:10:27
 os: [macosx]
 deps: [install-homebrew, install-mac-xcode-compilers]
 tags: [mpd, mpc, ncmpcpp]
-contributors: ["http://www.github.com/daschwa"]
+contributors: ["http://www.github.com/anschwa"]
 
 First, update and refresh `howebrew`.
 ```
