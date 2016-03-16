@@ -94,7 +94,7 @@ Now you need to load your agent and start it.
 # Load and start your new agent
 
 ## With the built in `launchctl`
-$ launchctl load ~/Library/org.yourusername.email-mom.plist
+$ launchctl load ~/Library/LaunchAgents/org.yourusername.email-mom.plist
 $ launchctl start org.yourusername.email-mom
 
 ## Or with Lunchy
