@@ -1,5 +1,5 @@
 title: Schedule jobs in MacOSX (a guide to launchd)
-updated: 2013-07-17 0:15:20
+updated: 2017-10-04 0:17:00
 description: As of MacOSX 10.4, cron became deprecated in favor of launchd. The biggest advantage of launchd is that it does not assume that your computer is always on (as cron does). Therefore, if your Mac is asleep when a scheduled job was supposed to run, it will automatically run when your Mac is awake. 
 os: [macosx]
 tags: [ops]
@@ -116,7 +116,7 @@ To stop an agent:
 
 ```bash
 # Stop an agent
-$ launchctl org.yourusername.email-mom
+$ launchctl stop org.yourusername.email-mom
 # OR
 $ lunchy stop email-mom
 ```
